@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+html {
+    min-height: 100vh;
+    background-color: #007bff;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container {
+    max-width: 1220px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #f8f9fa; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-nav {
+    display: flex;
+    font-family: Montserrat;
+  }
+  
+  .header-nav ul {
+    display: flex;
+    gap: 20px; 
+    padding: 0;
+    margin: 0;
+  }
+  
+  .header-nav li {
+    list-style: none;
+  }
+  
+  .header-nav a {
+    text-decoration: none;
+    color: #333; 
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .header-nav a:hover {
+    color: #007bff;
+    background-color: #e9ecef;
+    border-radius: 5px; 
+  }
+  
+  header img {
+    height: 50px; 
+    margin: 0 20px; 
+    transition: all .6s ease;
+}
+
+header img:hover {
+      transition: all .3s ease;
+    filter: drop-shadow(0 6px 4px rgba(2, 128, 219, 1));
+  }
+  
